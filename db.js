@@ -7,7 +7,7 @@ const MiembroModel = require('./models/miembro');
 
 
 //inicia el conection
-const sequelize = new Sequelize('mysql://root:phdiPS3xkCUkzhdAWl6u@containers-us-west-37.railway.app:7717/railway');
+const sequelize = new Sequelize('mysql://root:Z0cXMRdcUMacC4YR3b3e@containers-us-west-73.railway.app:5999/railway');
 
 //const sequelize = new Sequelize('club_libros', 'root', '', {
  //   host:'localhost' ,

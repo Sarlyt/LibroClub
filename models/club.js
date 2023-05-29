@@ -9,8 +9,8 @@ module.exports = (sequelize, type)=>{
         nombre:type.STRING,
         descripcion:type.TEXT('medium'),
         urlImagen:type.STRING,
-        publico:type.STRING,
         tituloLibro:type.INTEGER,
+        autorLibro:type.STRING,
         promedio:type.DOUBLE,
         miembros:type.INTEGER,
     });
